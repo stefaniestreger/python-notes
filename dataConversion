@@ -1,0 +1,3 @@
+# Data conversion functions
+int(item) = You pass an argument to the int() function and it returns the arg value converted to an int
+float(item) = You pass an arg to the float() function and it returns the arg value converted to a float
