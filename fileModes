@@ -1,0 +1,30 @@
+'r' - Opens a file for reading only. Cannot be changed or written to
+'w' - Opens a file for writing. If exists, erase contents. If not existing, create it.
+'a' - Opens a file to be written to. All data written to file will be appended to the end. If not existing, create it.
+
+List methods
+-----------------
+append(item)
+Adds item to the end of the list
+
+index(item)
+Returns the index of the first element whose value is equal to item. 
+A ValueError exception is raised if item is not found in the list.
+
+insert(index, item)
+Inserts item into the list at the specified index.
+When an item is inserted into a list, the list is expanded in size to accommodate the new item.
+The items that was previously at the specified index, and all the items after it, are shifted by one position toward the end of the list.
+No exceptions will occur if you specify an invalid index.
+If you specify an index beyound the end of the list, the item will be added to the end of the list.
+If you use a negative index that specifies an invalid position, the item will be inserted at the beginning of the list.
+
+sort()
+Sorts the items in the list so they appear in ascending order (from the lowest value to the highest value)
+
+remote(item)
+Removes the first occurrence of item from the list
+A ValueError exception is raised if item is not found in the list
+
+reverse()
+Reverses the order of the items in the list
