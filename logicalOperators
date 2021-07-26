@@ -1,0 +1,28 @@
+and
+Connects to Boolean expressions into one compound expression. Both subexpressions must be true for the compound expression to be true.
+
+or
+Connects two Boolean expressions into one compound expression. One or both subexpressions must be true for the compound expression to be true. Does not matter which.
+
+not
+Unary operator (works with only one operand). The operand must be a Boolean expression. Reverses the truth of it's operand.
+If applies to an expression that is true, the operator returns false. If applied to an expression that is false, the operator returns true.
+
+Truth table for the 'and' operator
+----------------------------------
+T and F = F
+F and T = F
+F and F = F
+T and T = T
+
+Truth table for the 'or' operator
+---------------------------------
+T or F = T
+F or T = T
+F or F = F
+T or T = T
+
+Truth table for the 'not' operator
+----------------------------------
+not T = F
+not F = T
