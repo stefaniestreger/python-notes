@@ -1,0 +1,33 @@
+String testing methods
+----------------------
+isalnum() - Returns T if string contains only alpha letters or num digits and is at least one char in len. Returns F otherwise.
+isalpha() - Returns T if string contains only alpha letters and is at least one char in len. Returns F otherwise.
+isdigit() - Returns T if string contains only num digits and is at least one char in len. Returns F otherwise.
+islower() - Returns T if all of alpha letters in string are lowercase, and the string contains at least one alpha letter. Returns F otherwise.
+isspace() - Returns T if string contains only whitespace chars and is at least one char in len. Returns F otherwise. Whitespace chars are spaces, newlines \n, and tabs \t
+isupper() - Returns F if all alpha letters in string are uppercase, and the string contains at least one alpha letter. Returns F otherwise.
+
+
+String modification methods
+----------------------------
+lower() - Returns a copy of string with all alpha letters converted to lowercase. Any char that is already lowercase, or is not an alpha letter, is unchanged
+lstrip() - Returns a copy of string with all leading whitespace chars removed. 
+Leading whitespace chars are spaces, newlines \n, and tabs \t that appear at the beginnning of the string
+
+lstrip(char) - The char argument is a string containing a char. Returns a copy of the string with all instances of char that appear at the beginning of the string removed
+rstrip() - Returns a copy of the string with all trailing whitespace chars removed. 
+Trailing whitespace chars are spaces, newlines \n, and tabs \t that appear at the beginnning of the string
+
+rstrip(char) - The char argument is a string containing a char. The method returns a copy of the string with all instances of char that appear at the end of the string removed.
+strip() - Returns a copy of the string with all leading and trailing whitespace chars removed.
+strip(char) - Returns a coipy of the string with all instances of char that appear at the beginning and the end of the string removed
+upper() - Returns a copy of the string with all alpha letters converted to uppercase. Any character that is already uppercase, or is not an alpha letter, is unchanged.
+
+String search and replace methods
+---------------------------------
+endswith(substring) - The substring arg is a string. The method returns T if the string ends with substring
+find(substring) - The substring arg is a string. The method returns the lowest index in the string where substring is found. 
+If substring is not found, the method returns -1
+
+replace(old, new) - The old and new arg are both strings. The method returns a copy of the string with all instance of old is replaced by new
+startswith(substring) - The substring arg is a string. The method returns T if the string starts with a substring
