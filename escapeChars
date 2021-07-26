@@ -1,0 +1,5 @@
+\n - Causes output to be advanced to the next line
+\t - Causes output to skip over to the next horizontal tab position
+\' - Causes a single quote mark to be printed
+\" - Causes a double quote mark to be printed
+\\ - Causes a backslash char to be printed
